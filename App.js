@@ -41,7 +41,7 @@ export default function App() {
 
     bootstrapAsync();
   }, []);
-
+  // Comment for test git
   return (
     <NavigationContainer>
       {isLoading ? null : userToken === null ? ( // We haven't finished checking for the token yet
