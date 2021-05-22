@@ -61,7 +61,7 @@ export default function App() {
             {() => (
               <Tab.Navigator
                 tabBarOptions={{
-                  activeTintColor: "tomato",
+                  activeTintColor: "blue",
                   inactiveTintColor: "gray",
                 }}
               >
