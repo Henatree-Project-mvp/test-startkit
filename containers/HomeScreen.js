@@ -4,6 +4,7 @@ import { Button, Text, View, Image, StyleSheet } from "react-native";
 
 //import component
 import LilyInput from "../components/LilyInput";
+import Clairebutton from "../components/Clairebutton";
 
 export default function HomeScreen() {
   const navigation = useNavigation();
@@ -26,7 +27,7 @@ export default function HomeScreen() {
           setValue={setDescription}
         />
       </View>
-
+      <Clairebutton />
       <Button
         title="Go to Profile"
         onPress={() => {
