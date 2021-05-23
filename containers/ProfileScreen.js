@@ -7,6 +7,7 @@ export default function ProfileScreen() {
   return (
     <View>
       <Text>user id : {params.userId}</Text>
+      <Text>une bonne modif de faite</Text>
     </View>
   );
 }
